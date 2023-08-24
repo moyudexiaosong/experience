@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input,
+button,
+img {
+    border: none;
+}
+
+.active {
+    color: aqua;
+}
+
+html,
+body,
+#app {
+    width: 100vw;
+    height: 100vh;
+}

@@ -1,0 +1,25 @@
+
+{
+    "restartable": "rs",
+    "delay": 1000,
+    "colours": false,
+    "verbose": true,
+    "ignore": [
+      ".git",
+      ".svn",
+      "node_modules/**/node_modules"
+    ],
+    "watch": [
+      
+    ],
+    "events": {
+      "restart": "osascript -e 'display notification \"app restarted\" with title \"nodemon\"'"
+    },
+    "execMap": {
+      "js": "node --harmony"
+    },
+    "ext": "js, json",
+    "env": {
+      "NODE_ENV": "development"
+    }
+  }
