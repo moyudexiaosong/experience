@@ -79,7 +79,7 @@ const submitForm = (formEl) => {
   //用isLogin区分是登录还是注册
   formEl.validate((valid) => {
     if (valid) {
-      loginStore.value.loginAction({
+      loginStore.loginAction({
         username: user.username,
         password: user.password,
       });

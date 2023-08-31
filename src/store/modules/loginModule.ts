@@ -13,7 +13,6 @@ const loginStore = defineStore("login", {
         isLogined: false,
         token: "",
       },
-
     };
   },
   actions: {
