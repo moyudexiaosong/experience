@@ -21,7 +21,7 @@ app.use((req, res, next) => {
   // 指定允许跨域的指令
   res.setHeader('Access-Control-Allow-Origin', 'GET,PUT,POST,DELETE')
   // 允许增加一些自定义的请求头，比如content-type
-  res.setHeader('Access-Control-Allow-Origin', 'content-type')
+  res.setHeader('Access-Control-Allow-Origin', 'content-type a,token,secret')
   next()
 })
 

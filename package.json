@@ -15,6 +15,7 @@
     "element-plus": "^2.3.9",
     "express": "^5.0.0-beta.1",
     "i": "^0.3.7",
+    "js-md5": "^0.7.3",
     "jsonwebtoken": "^9.0.1",
     "jwt-decode": "^3.1.2",
     "mysql": "^2.18.1",
